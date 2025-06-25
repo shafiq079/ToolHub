@@ -201,8 +201,8 @@ const SpeechToText = () => {
             <button
               onClick={isListening ? stopListening : startListening}
               className={`inline-flex items-center space-x-3 px-8 py-4 rounded-full text-white font-semibold transition-all transform hover:scale-105 ${isListening
-                  ? 'bg-red-500 hover:bg-red-600 animate-pulse'
-                  : 'bg-blue-500 hover:bg-blue-600'
+                ? 'bg-red-500 hover:bg-red-600 animate-pulse'
+                : 'bg-blue-500 hover:bg-blue-600'
                 }`}
             >
               {isListening ? (
@@ -288,30 +288,99 @@ const SpeechToText = () => {
             )}
           </div>
 
-          {/* Instructions */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h4 className="font-medium text-blue-800 mb-2">How to Use</h4>
-            <ol className="text-blue-700 text-sm space-y-1 list-decimal list-inside">
-              <li>Select your preferred language from the dropdown</li>
-              <li>Click "Start Recording" and allow microphone access when prompted</li>
-              <li>Speak clearly and at a normal pace</li>
-              <li>Your speech will be converted to text in real-time</li>
-              <li>Click "Stop Recording" when finished</li>
-              <li>Copy or download your transcript</li>
-            </ol>
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Speech to Text Converter – Convert Voice into Text Instantly</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is a Speech to Text Tool?</h3>
+                <p className="text-gray-600 mb-4">
+                  A Speech to Text tool is a voice recognition technology that transcribes spoken words into written text. It utilizes advanced speech recognition engines to accurately convert your voice in real time, making it a valuable resource for productivity, accessibility, and content creation.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  From writing emails hands-free to documenting lectures, speech to text simplifies the way you interact with digital platforms. It also helps people with disabilities communicate more effectively and boosts typing speed for all users.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Speech to Text Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our free online Speech to Text tool offers lightning-fast transcription with no downloads or sign-ups required. It runs directly in your browser and supports real-time conversion with high accuracy.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Instant transcription as you speak</li>
+                  <li>Works on desktop and mobile browsers</li>
+                  <li>Supports multiple languages (depending on browser capabilities)</li>
+                  <li>Copy or save text easily after transcription</li>
+                  <li>No microphone recordings are stored or shared</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Where is Speech to Text Used?</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Productivity and Communication</h4>
+              <p className="text-gray-600 mb-3">
+                Professionals use voice typing for note-taking, emails, meeting summaries, and content drafting. Students record lectures or brainstorm essays hands-free. Customer service agents can convert call recordings into transcripts for documentation.
+              </p>
+              <p className="text-gray-600">
+                It’s also essential in journalism, research, and documentation tasks where fast and accurate note capture is needed.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Accessibility and Inclusion</h4>
+              <p className="text-blue-700 mb-3">
+                Speech to Text empowers people with physical disabilities, hearing impairments, or temporary injuries to communicate and interact with digital systems effortlessly.
+              </p>
+              <p className="text-blue-700">
+                It also helps non-native speakers and those with spelling difficulties create written content more easily and confidently.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use Our Speech to Text Tool</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Grant Microphone Access</h4>
+                <p className="text-gray-600 text-sm">
+                  Click the microphone button and allow your browser to access your microphone. Make sure your device has a working mic.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Start Speaking Clearly</h4>
+                <p className="text-gray-600 text-sm">
+                  Speak naturally and clearly. The tool will convert your words into text in real-time as you talk.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: Edit and Copy</h4>
+                <p className="text-gray-600 text-sm">
+                  Once you're done, copy the transcribed text for use in documents, messages, or web forms. You can also make edits before copying.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Tips for Better Accuracy</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Speak slowly and clearly, especially with complex terms</li>
+                <li>Use a headset or external mic for better clarity</li>
+                <li>Minimize background noise during recording</li>
+                <li>Use punctuation commands (e.g., “comma,” “period”) for formatting</li>
+                <li>Refresh the page if microphone permission fails</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our browser-based Speech to Text tool helps you work faster, communicate clearly, and stay productive—all without typing. Try it now for effortless voice transcription with no installation required.
+            </p>
           </div>
 
-          {/* Tips */}
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-            <h4 className="font-medium text-green-800 mb-2">Tips for Better Recognition</h4>
-            <ul className="text-green-700 text-sm space-y-1">
-              <li>• Use a quiet environment to minimize background noise</li>
-              <li>• Speak clearly and at a moderate pace</li>
-              <li>• Position your microphone close to your mouth</li>
-              <li>• Pause briefly between sentences</li>
-              <li>• Say punctuation marks like "comma" or "period" if needed</li>
-            </ul>
-          </div>
         </div>
       </ToolLayout>
     </>

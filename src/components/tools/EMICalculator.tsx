@@ -281,6 +281,99 @@ const EMICalculator = () => {
               </div>
             </div>
           )}
+          {/* SEO content */}
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Guide to EMI Calculation</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is an EMI Calculator?</h3>
+                <p className="text-gray-600 mb-4">
+                  An EMI (Equated Monthly Installment) Calculator is a digital tool that helps users calculate monthly loan repayments based on the principal amount, interest rate, and loan tenure. It instantly provides the exact EMI, total interest payable, and the total payment amount over the loan period.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  Whether you are planning to take a home loan, car loan, education loan, or personal loan, our EMI calculator helps you make informed financial decisions by showing the financial commitment before you borrow.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our EMI Calculator?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our EMI calculator is fast, accurate, and easy to use. It eliminates manual calculations, reduces errors, and provides a clear financial picture. It helps compare different loan offers or payment plans from banks and lenders.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Instant EMI and interest breakdown</li>
+                  <li>No login or registration required</li>
+                  <li>Supports a wide range of loan amounts and tenures</li>
+                  <li>Secure and privacy-friendly (runs locally in your browser)</li>
+                  <li>Completely free and mobile-friendly</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Where EMI Calculators Are Commonly Used</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Personal and Professional Use</h4>
+              <p className="text-gray-600 mb-3">
+                Individuals use EMI calculators to plan budgets, compare loans, and avoid surprises in monthly financial planning. Financial advisors and consultants rely on them for quick calculations during client meetings.
+              </p>
+              <p className="text-gray-600">
+                Even banks and lending platforms integrate similar calculators on their websites to allow users to estimate repayments easily and increase transparency.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Real Estate, Vehicles & Education Loans</h4>
+              <p className="text-blue-700 mb-3">
+                Home buyers use EMI calculators to understand affordability and monthly commitment. Similarly, students applying for education loans or professionals buying a car use this tool to compare repayment options.
+              </p>
+              <p className="text-blue-700">
+                It also helps estimate the total cost of a loan when choosing between different down payments and interest rates.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the EMI Calculator</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Enter Loan Amount</h4>
+                <p className="text-gray-600 text-sm">
+                  Specify the total loan amount you wish to borrow. This is the principal on which interest will be calculated.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Enter Interest Rate</h4>
+                <p className="text-gray-600 text-sm">
+                  Enter the annual interest rate provided by the lender (in %). The tool will internally convert it for monthly EMI calculations.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: Enter Loan Tenure</h4>
+                <p className="text-gray-600 text-sm">
+                  Input the duration of the loan (in months or years). The EMI and total interest will adjust based on this value.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Tips for Managing EMIs Smartly</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Always check total interest paid, not just EMI</li>
+                <li>Use different tenures to compare long- vs short-term costs</li>
+                <li>Pay extra towards principal when possible to reduce interest</li>
+                <li>Never borrow more than 40% of your monthly income</li>
+                <li>Use EMI calculator before applying for any loan</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our EMI calculator is a powerful tool that helps you take charge of your loan planning. Whether you're buying a home, car, or financing an education, it ensures you're financially prepared and informed — all in a matter of seconds.
+            </p>
+          </div>
 
           {/* Tips */}
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">

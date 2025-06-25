@@ -122,8 +122,6 @@ const ImageCompressor = () => {
   return (
     <>
       <Helmet>
-
-
         <title>Image Compressor – Reduce Image Size Online | ToolsHub</title>
         <meta name="description" content="Compress JPEG, PNG, and WebP images for free. Reduce file size without losing quality. Secure and easy to use image compressor." />
         <meta name="keywords" content="image compressor, compress jpeg, reduce image size, online image optimizer" />
@@ -296,7 +294,7 @@ const ImageCompressor = () => {
           {/* SEO Content Section */}
           <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Guide to Image Compression</h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">What is Image Compression?</h3>
@@ -307,7 +305,7 @@ const ImageCompressor = () => {
                   There are two main types of image compression: lossy and lossless. Our tool primarily uses lossy compression, which achieves significant size reductions by selectively removing image data that's less noticeable to the human eye. This approach is perfect for web images, social media posts, and email attachments.
                 </p>
               </div>
-              
+
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Compress Images?</h3>
                 <p className="text-gray-600 mb-4">
@@ -324,7 +322,7 @@ const ImageCompressor = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Supported Image Formats and Best Practices</h3>
-            
+
             <div className="space-y-6">
               <div className="bg-blue-50 rounded-lg p-6">
                 <h4 className="text-lg font-semibold text-blue-800 mb-3">JPEG Compression</h4>
@@ -358,7 +356,7 @@ const ImageCompressor = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">How to Use Our Image Compressor Effectively</h3>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-green-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 1: Upload Your Images</h4>
@@ -366,14 +364,14 @@ const ImageCompressor = () => {
                   Drag and drop multiple images or click to browse and select files. Our compressor supports batch processing, allowing you to compress multiple images simultaneously for efficiency.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 2: Adjust Quality Settings</h4>
                 <p className="text-gray-600 text-sm">
                   Use the quality slider to balance file size and visual quality. Higher percentages maintain more quality but result in larger files. Start with 80% and adjust based on your needs.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-purple-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 3: Download Compressed Images</h4>
                 <p className="text-gray-600 text-sm">

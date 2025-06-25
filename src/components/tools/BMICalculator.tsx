@@ -143,8 +143,8 @@ const BMICalculator = () => {
               <button
                 onClick={() => setUnit('metric')}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${unit === 'metric'
-                    ? 'bg-white text-blue-600 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
+                  ? 'bg-white text-blue-600 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
                   }`}
               >
                 Metric (cm, kg)
@@ -152,8 +152,8 @@ const BMICalculator = () => {
               <button
                 onClick={() => setUnit('imperial')}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${unit === 'imperial'
-                    ? 'bg-white text-blue-600 shadow-sm'
-                    : 'text-gray-600 hover:text-gray-900'
+                  ? 'bg-white text-blue-600 shadow-sm'
+                  : 'text-gray-600 hover:text-gray-900'
                   }`}
               >
                 Imperial (ft/in, lbs)
@@ -281,7 +281,7 @@ const BMICalculator = () => {
           {/* SEO Content Section */}
           <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Understanding BMI: Your Complete Health Assessment Guide</h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">What is Body Mass Index (BMI)?</h3>
@@ -292,7 +292,7 @@ const BMICalculator = () => {
                   Our BMI calculator uses the standard formula: weight (kg) divided by height (meters) squared, or weight (lbs) divided by height (inches) squared multiplied by 703. This calculation provides a numerical value that corresponds to specific health categories, helping healthcare providers and individuals assess potential health risks associated with weight.
                 </p>
               </div>
-              
+
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Why BMI Matters for Your Health</h3>
                 <p className="text-gray-600 mb-4">
@@ -309,7 +309,7 @@ const BMICalculator = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">BMI Categories and Health Implications</h3>
-            
+
             <div className="space-y-6">
               <div className="bg-blue-50 rounded-lg p-6">
                 <h4 className="text-lg font-semibold text-blue-800 mb-3">Underweight (BMI Below 18.5)</h4>
@@ -353,7 +353,7 @@ const BMICalculator = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">How to Use Our BMI Calculator Effectively</h3>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-green-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Accurate Measurements</h4>
@@ -361,14 +361,14 @@ const BMICalculator = () => {
                   For the most accurate BMI calculation, measure your height without shoes and your weight in minimal clothing, preferably in the morning. Use the same scale consistently and ensure it's calibrated properly.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Choose the Right Units</h4>
                 <p className="text-gray-600 text-sm">
                   Our calculator supports both metric (centimeters and kilograms) and imperial (inches and pounds) measurements. Select the unit system you're most comfortable with for accurate input.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-purple-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Interpret Results Carefully</h4>
                 <p className="text-gray-600 text-sm">

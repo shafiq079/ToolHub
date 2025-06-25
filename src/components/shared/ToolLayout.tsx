@@ -71,18 +71,6 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
           {children}
         </div>
 
-        {/* How to Use Section*/}
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4">How to Use</h2>
-          <div className="prose prose-blue max-w-none">
-            <p className="text-gray-600">
-              This tool is designed to be simple and intuitive. Follow the instructions above the input fields
-              to get started. All calculations are performed instantly as you type, and your data is processed
-              locally for maximum privacy and security.
-            </p>
-          </div>
-        </div>
-
         {/* Related Tools */}
         {relatedTools.length > 0 && (
           <div className="bg-white rounded-lg shadow-sm p-6">

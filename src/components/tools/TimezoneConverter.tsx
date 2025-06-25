@@ -348,17 +348,99 @@ const TimezoneConverter = () => {
             </div>
           )}
 
-          {/* Tips */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h4 className="font-medium text-blue-800 mb-2">Timezone Tips</h4>
-            <ul className="text-blue-700 text-sm space-y-1">
-              <li>• Daylight saving time is automatically handled for supported timezones</li>
-              <li>• Use UTC for precise time calculations and international coordination</li>
-              <li>• Consider timezone abbreviations may change based on daylight saving time</li>
-              <li>• Business hours typically vary between 9 AM - 5 PM in local time</li>
-              <li>• Schedule meetings considering all participants' local times</li>
-            </ul>
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Timezone Converter – Easily Convert Between Time Zones</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is a Timezone Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  A Timezone Converter is an online tool that helps you accurately convert the current time from one location to another around the world. Whether you're scheduling international meetings, planning travel, or managing remote teams, this tool ensures everyone stays on the same page regardless of their geographic location.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  It eliminates confusion caused by daylight saving time, international date lines, and different regional time settings by providing instant and reliable conversions between any two time zones.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Timezone Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our free online Timezone Converter is designed for simplicity and accuracy. With just a few clicks, you can convert times between cities and countries, whether you're organizing a virtual meeting or coordinating travel plans.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Instant conversion across global time zones</li>
+                  <li>Supports thousands of cities and regions worldwide</li>
+                  <li>Daylight Saving Time adjustments automatically applied</li>
+                  <li>Mobile-friendly and easy-to-use interface</li>
+                  <li>No registration or installation needed</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Who Uses Timezone Converters?</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Remote Teams & Professionals</h4>
+              <p className="text-gray-600 mb-3">
+                Remote teams and freelancers working with clients in different time zones rely on converters to schedule meetings, send reports, and manage project deadlines without errors or delays.
+              </p>
+              <p className="text-gray-600">
+                It's especially useful for virtual interviews, customer support, and webinars where participants join from multiple regions.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Travelers and Global Planners</h4>
+              <p className="text-blue-700 mb-3">
+                Whether you’re planning a trip, booking a flight, or coordinating a global event, knowing the time in another city is essential. Our converter makes it quick and reliable.
+              </p>
+              <p className="text-blue-700">
+                Frequent flyers and travel bloggers often use it to plan their content and post at ideal local times.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the Timezone Converter</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Select Source and Target Timezones</h4>
+                <p className="text-gray-600 text-sm">
+                  Choose your current location’s timezone (source) and the timezone you want to convert to (target).
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Set the Time to Convert</h4>
+                <p className="text-gray-600 text-sm">
+                  Pick the date and time in your current timezone to see its equivalent in the selected target timezone.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: View the Results Instantly</h4>
+                <p className="text-gray-600 text-sm">
+                  The tool instantly displays the corresponding time in the target timezone, including any daylight saving adjustments.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Tips for Accurate Time Conversion</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Double-check daylight saving rules for each timezone</li>
+                <li>Use the correct city or region for accuracy</li>
+                <li>Remember that some countries have multiple time zones</li>
+                <li>Convert future or past dates to account for seasonal changes</li>
+                <li>Copy or share converted times to reduce confusion</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our Timezone Converter helps you avoid scheduling mishaps and ensures global coordination across time zones. Perfect for travelers, students, professionals, and anyone working across borders.
+            </p>
           </div>
+
         </div>
       </ToolLayout>
     </>

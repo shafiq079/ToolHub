@@ -193,7 +193,7 @@ const AgeCalculator = () => {
           {/* SEO Content Section */}
           <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Guide to Age Calculation</h2>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">What is an Age Calculator?</h3>
@@ -204,7 +204,7 @@ const AgeCalculator = () => {
                   This tool is particularly useful for determining eligibility for age-restricted activities, calculating retirement dates, or planning milestone celebrations. Many people use age calculators for legal documents, insurance applications, or simply to satisfy their curiosity about their exact age in different units of time.
                 </p>
               </div>
-              
+
               <div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Age Calculator?</h3>
                 <p className="text-gray-600 mb-4">
@@ -221,7 +221,7 @@ const AgeCalculator = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Common Uses for Age Calculators</h3>
-            
+
             <div className="bg-white rounded-lg p-6 mb-6">
               <h4 className="text-lg font-semibold text-gray-700 mb-3">Professional and Legal Applications</h4>
               <p className="text-gray-600 mb-3">
@@ -243,7 +243,7 @@ const AgeCalculator = () => {
             </div>
 
             <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the Age Calculator Effectively</h3>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-green-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 1: Enter Your Birth Date</h4>
@@ -251,14 +251,14 @@ const AgeCalculator = () => {
                   Select your exact birth date using the date picker. The calculator accepts dates from the early 1900s to the present day, ensuring accuracy for users of all ages.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 2: Choose Target Date (Optional)</h4>
                 <p className="text-gray-600 text-sm">
                   By default, the calculator uses today's date, but you can specify any future or past date to calculate your age on that specific day. This feature is useful for planning events or determining past ages.
                 </p>
               </div>
-              
+
               <div className="border-l-4 border-purple-500 pl-4">
                 <h4 className="font-semibold text-gray-700">Step 3: View Comprehensive Results</h4>
                 <p className="text-gray-600 text-sm">

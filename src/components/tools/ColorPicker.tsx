@@ -168,8 +168,8 @@ const ColorPicker = () => {
             <button
               onClick={() => setActiveTab('color')}
               className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-colors ${activeTab === 'color'
-                  ? 'bg-white text-blue-600 shadow-sm'
-                  : 'text-gray-600 hover:text-gray-900'
+                ? 'bg-white text-blue-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
                 }`}
             >
               Color Picker
@@ -177,8 +177,8 @@ const ColorPicker = () => {
             <button
               onClick={() => setActiveTab('gradient')}
               className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-colors ${activeTab === 'gradient'
-                  ? 'bg-white text-blue-600 shadow-sm'
-                  : 'text-gray-600 hover:text-gray-900'
+                ? 'bg-white text-blue-600 shadow-sm'
+                : 'text-gray-600 hover:text-gray-900'
                 }`}
             >
               Gradient Generator
@@ -333,8 +333,8 @@ const ColorPicker = () => {
                       key={dir}
                       onClick={() => setGradientDirection(dir)}
                       className={`px-3 py-2 text-sm rounded transition-colors ${gradientDirection === dir
-                          ? 'bg-blue-100 text-blue-700 border border-blue-300'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-blue-100 text-blue-700 border border-blue-300'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                         }`}
                     >
                       {dir}
@@ -381,6 +381,99 @@ const ColorPicker = () => {
               </div>
             </div>
           )}
+          {/* SEO content*/}
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Guide to Using a Color Picker Online</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is an Online Color Picker?</h3>
+                <p className="text-gray-600 mb-4">
+                  A color picker is a digital tool that helps designers, developers, and everyday users find and select the perfect color for their needs. Whether you’re working on a website, designing graphics, or choosing a color scheme, this tool allows you to extract hex codes, RGB values, and even HSL formats with ease.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  With our online color picker, you can interactively choose colors from a palette, extract colors from uploaded images, or experiment with gradients. It’s ideal for creating cohesive designs, ensuring brand consistency, and streamlining the creative process.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Color Picker Tool?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our tool is designed with simplicity and precision in mind. It supports a wide variety of use cases — from selecting a background color for a website to matching colors in a logo or UI component. Best of all, it's fast, free, and doesn’t require any sign-up.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Get HEX, RGB, and HSL values instantly</li>
+                  <li>Copy color codes to clipboard with one click</li>
+                  <li>Interactive color sliders and palette preview</li>
+                  <li>Completely free and browser-based</li>
+                  <li>No personal data collected or stored</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Practical Uses of a Color Picker</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Design & Development</h4>
+              <p className="text-gray-600 mb-3">
+                Web developers use color pickers to ensure consistent UI design, match brand guidelines, and set theme colors. Designers rely on them to create harmonious palettes for graphics, posters, and websites.
+              </p>
+              <p className="text-gray-600">
+                Our tool is especially useful when converting client brand colors to HEX or RGB for web use or preparing assets for export in specific color formats.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Personal & Creative Projects</h4>
+              <p className="text-blue-700 mb-3">
+                Bloggers, hobbyists, and students use color pickers for customizing their online presence, presentations, or DIY crafts. It’s also helpful for social media posts, digital resumes, or customizing gaming themes.
+              </p>
+              <p className="text-blue-700">
+                With our intuitive interface, anyone can experiment with colors and build a better sense of visual aesthetics — no professional training required.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the Color Picker Effectively</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Use the Color Slider or Input Field</h4>
+                <p className="text-gray-600 text-sm">
+                  Pick a color manually using the visual slider or enter a known HEX, RGB, or HSL code. The selected color will appear in the preview box instantly.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Copy the Color Code</h4>
+                <p className="text-gray-600 text-sm">
+                  Use the “Copy” button to quickly grab the color code and paste it into your code editor, design tool, or documentation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: Optional - Use for Accessibility Checks</h4>
+                <p className="text-gray-600 text-sm">
+                  Ensure your selected color meets contrast requirements for accessibility by pairing it with other background or text colors.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Tips for Choosing Great Colors</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Use complementary colors for balance and contrast</li>
+                <li>Stick to your brand's primary and secondary colors</li>
+                <li>Test your color combinations for readability</li>
+                <li>Save frequently used colors in a palette</li>
+                <li>Use color theory principles for better visual impact</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our online color picker is your go-to tool for all color-related needs — from web design to creative projects. It's precise, user-friendly, and always free. Try it today and bring your color ideas to life!
+            </p>
+          </div>
 
           {/* Tips */}
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">

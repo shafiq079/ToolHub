@@ -186,8 +186,8 @@ const UnitConverter = () => {
                   key={key}
                   onClick={() => setCategory(key)}
                   className={`p-3 text-center rounded-lg border-2 transition-colors ${category === key
-                      ? 'border-blue-500 bg-blue-50 text-blue-700'
-                      : 'border-gray-200 hover:border-gray-300'
+                    ? 'border-blue-500 bg-blue-50 text-blue-700'
+                    : 'border-gray-200 hover:border-gray-300'
                     }`}
                 >
                   <div className="text-sm font-medium capitalize">{key}</div>
@@ -340,6 +340,100 @@ const UnitConverter = () => {
               )}
             </div>
           </div>
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Unit Converter – Convert Any Measurement Instantly</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is a Unit Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  A unit converter is an online tool that helps you convert one type of measurement into another. Whether you're converting kilometers to miles, Celsius to Fahrenheit, or grams to ounces, a unit converter makes the process fast, accurate, and effortless.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  It’s essential for students, professionals, and travelers who regularly work with different unit systems. Our converter eliminates the need for manual calculations, reducing errors and saving time.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Unit Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our free online unit converter is a powerful and user-friendly tool designed for speed and reliability. It includes a wide range of measurement categories like length, temperature, weight, area, volume, and more.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Supports all major unit types and systems</li>
+                  <li>Instant and precise conversions</li>
+                  <li>Clean, responsive UI for mobile and desktop</li>
+                  <li>No sign-up or installation required</li>
+                  <li>Ideal for academic, professional, and daily use</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Who Uses Unit Converters?</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Students and Engineers</h4>
+              <p className="text-gray-600 mb-3">
+                Students use unit converters for math, science, and engineering problems, while professionals rely on it to ensure accurate specifications and calculations in designs and reports.
+              </p>
+              <p className="text-gray-600">
+                Architects, developers, and analysts also benefit from fast and dependable unit conversions during planning and execution.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Travelers and Global Shoppers</h4>
+              <p className="text-blue-700 mb-3">
+                When traveling abroad or shopping internationally, you often need to convert currencies, temperatures, or distances. This tool simplifies those tasks, giving you the confidence to make informed decisions.
+              </p>
+              <p className="text-blue-700">
+                Whether you're converting feet to meters or liters to gallons, our tool ensures accuracy every time.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the Unit Converter</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Choose Measurement Type</h4>
+                <p className="text-gray-600 text-sm">
+                  Select a category like length, weight, temperature, volume, etc., based on the type of conversion you need.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Enter Value and Units</h4>
+                <p className="text-gray-600 text-sm">
+                  Input the value you want to convert and select the units you’re converting from and to.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: Get the Converted Result</h4>
+                <p className="text-gray-600 text-sm">
+                  Instantly see the converted result below. You can repeat the process for as many conversions as you need.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Tips for Accurate Unit Conversion</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Double-check selected units before converting</li>
+                <li>Use exact decimal values for precise results</li>
+                <li>Be aware of regional differences (e.g., US vs. UK gallons)</li>
+                <li>Use the same measurement system when comparing results</li>
+                <li>Bookmark the tool for quick future access</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our Unit Converter is your all-in-one solution for converting any type of measurement quickly and reliably. Whether you’re solving homework problems or planning international logistics, you can count on accurate results every time.
+            </p>
+          </div>
+
+
         </div>
       </ToolLayout>
     </>

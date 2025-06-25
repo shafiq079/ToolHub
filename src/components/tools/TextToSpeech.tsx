@@ -274,17 +274,99 @@ const TextToSpeech = () => {
             </p>
           </div>
 
-          {/* Tips */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h4 className="font-medium text-blue-800 mb-2">Tips for Better Speech</h4>
-            <ul className="text-blue-700 text-sm space-y-1">
-              <li>• Use punctuation to control pauses and intonation</li>
-              <li>• Try different voices to find the one that sounds best</li>
-              <li>• Adjust speed for better comprehension</li>
-              <li>• Break long text into smaller chunks for processing</li>
-              <li>• Use proper capitalization for better pronunciation</li>
-            </ul>
+          {/* SEO Content Section */}
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Text to Speech Converter – Turn Text into Natural Audio</h2>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">What is a Text to Speech Tool?</h3>
+                <p className="text-gray-600 mb-4">
+                  A Text to Speech (TTS) tool is a software-based application that converts written text into spoken words. It uses advanced speech synthesis technology to provide lifelike audio output in various voices and languages, making digital content more accessible and interactive.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  TTS is commonly used for accessibility, language learning, multitasking, and voice-based interfaces. It helps users consume text-based content through audio, offering convenience and support to people with visual impairments or reading difficulties.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">Why Use Our Text to Speech Converter?</h3>
+                <p className="text-gray-600 mb-4">
+                  Our free browser-based TTS tool allows users to convert any written content into high-quality voice with just one click. No downloads, registrations, or installations required—just input your text and listen instantly.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-2">
+                  <li>Instant conversion from text to spoken audio</li>
+                  <li>Supports multiple voices and languages (based on browser capabilities)</li>
+                  <li>Adjustable speech rate and pitch options</li>
+                  <li>Ideal for accessibility, learning, and content listening</li>
+                  <li>Runs entirely in your browser—safe and private</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">How is Text to Speech Commonly Used?</h3>
+
+            <div className="bg-white rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-gray-700 mb-3">Accessibility and Inclusion</h4>
+              <p className="text-gray-600 mb-3">
+                TTS helps visually impaired individuals or those with reading challenges consume written content such as articles, emails, and documents. It's a core tool for accessible education and inclusive digital experiences.
+              </p>
+              <p className="text-gray-600">
+                It also assists users with learning disabilities such as dyslexia, allowing them to understand written material through audio playback.
+              </p>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
+              <h4 className="text-lg font-semibold text-blue-800 mb-3">Productivity and Multitasking</h4>
+              <p className="text-blue-700 mb-3">
+                Many users prefer to listen to articles, emails, or notes while performing other tasks. Text to Speech allows multitasking without sacrificing comprehension.
+              </p>
+              <p className="text-blue-700">
+                It’s also useful for proofreading written content—hearing your text read aloud can help catch typos and awkward phrasing.
+              </p>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">How to Use the Text to Speech Tool</h3>
+
+            <div className="space-y-4">
+              <div className="border-l-4 border-green-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 1: Enter Your Text</h4>
+                <p className="text-gray-600 text-sm">
+                  Type or paste the text you want to convert into the input area. You can enter a few lines or longer paragraphs.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 2: Select Voice Options</h4>
+                <p className="text-gray-600 text-sm">
+                  Choose from available voice types and adjust the speed or pitch (if supported). Different browsers offer different voice settings.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-purple-500 pl-4">
+                <h4 className="font-semibold text-gray-700">Step 3: Click Play</h4>
+                <p className="text-gray-600 text-sm">
+                  Click the “Play” button to hear your text spoken out loud. You can pause, resume, or stop the playback at any time.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 rounded-lg p-6 mt-8">
+              <h4 className="text-lg font-semibold text-yellow-800 mb-3">Best Practices for Using TTS</h4>
+              <ul className="list-disc list-inside text-yellow-700 space-y-2">
+                <li>Keep your sentences clear and concise for better pronunciation</li>
+                <li>Use punctuation to help with pauses and tone</li>
+                <li>Break long text into smaller sections for easier listening</li>
+                <li>Try different voice options to find the most natural tone</li>
+                <li>Use for reading emails, blogs, eBooks, and more</li>
+              </ul>
+            </div>
+
+            <p className="text-gray-600 mt-6">
+              Our Text to Speech tool helps bring your words to life, whether you're reading on the go, making content accessible, or turning ideas into audio. It's fast, free, and available anytime from any device.
+            </p>
           </div>
+
         </div>
       </ToolLayout>
     </>
