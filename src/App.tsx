@@ -23,10 +23,12 @@ import BMICalculator from './components/tools/BMICalculator';
 import RandomNumberGenerator from './components/tools/RandomNumberGenerator';
 import EMICalculator from './components/tools/EMICalculator';
 import PlagiarismChecker from './components/tools/PlagiarismChecker';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gray-50 font-inter">
         <Helmet>
           <script type="application/ld+json">

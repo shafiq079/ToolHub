@@ -16,7 +16,6 @@ const Header = () => {
         { name: 'Age Calculator', path: '/tools/age-calculator' },
         { name: 'BMI Calculator', path: '/tools/bmi-calculator' },
         { name: 'EMI Calculator', path: '/tools/emi-calculator' },
-        { name: 'Random Number Generator', path: '/tools/random-number-generator' }
       ]
     },
     converters: {
@@ -34,7 +33,8 @@ const Header = () => {
       tools: [
         { name: 'Password Generator', path: '/tools/password-generator' },
         { name: 'QR Code Generator', path: '/tools/qr-code-generator' },
-        { name: 'Color Picker', path: '/tools/color-picker' }
+        { name: 'Color Picker', path: '/tools/color-picker' },
+        { name: 'Random Number Generator', path: '/tools/random-number-generator' }
       ]
     },
     media: {
