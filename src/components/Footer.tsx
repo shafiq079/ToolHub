@@ -121,10 +121,10 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 ToolsHub. All rights reserved.
+              © 2025 ToolsHub. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
-              Made with ❤️ for productivity enthusiasts
+              Developed by <a href="shafiq-webdev.vercel.app" className="text-blue-400 hover:underline">ShafiqWebDev</a>.
             </p>
           </div>
         </div>
