@@ -124,10 +124,19 @@ const Footer = () => {
               © 2025 ToolsHub. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm mt-4 md:mt-0">
-              Developed by <a href="shafiq-webdev.vercel.app" className="text-blue-400 hover:underline">ShafiqWebDev</a>.
+              Developed by{' '}
+              <a
+                href="https://shafiq-webdev.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                shafiqwebdev
+              </a>
             </p>
           </div>
         </div>
+
       </div>
     </footer>
   );
