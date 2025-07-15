@@ -62,7 +62,7 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
         </div>
 
         {/* Ad Placeholder - Medium Rectangle */}
-        <div className="ad-banner bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg p-8 mb-6 text-center">
+        <div className="my-4">
           <GoogleAd/>
         </div>
 
