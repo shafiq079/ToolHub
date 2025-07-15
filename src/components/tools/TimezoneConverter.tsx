@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ToolLayout from '../shared/ToolLayout';
-import { Clock, Globe, MapPin, Copy } from 'lucide-react';
+import { Clock, Globe, MapPin, Copy, Trash2 } from 'lucide-react'; // Import Trash2
 import { Helmet } from 'react-helmet-async';
 
 const TimezoneConverter = () => {
@@ -289,7 +289,7 @@ const TimezoneConverter = () => {
 
               <div className="space-y-2">
                 {outputTimezones.map((tz, index) => (
-                  <div key={index} className="flex items-center space-x-2">
+                  <div key={index} className="flex items-center space-x-2 bg-white p-2 border border-gray-200 rounded-lg">
                     <select
                       value={tz}
                       onChange={(e) => {
@@ -297,7 +297,7 @@ const TimezoneConverter = () => {
                         newTimezones[index] = e.target.value;
                         setOutputTimezones(newTimezones);
                       }}
-                      className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+                      className="flex-grow w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors bg-white"
                     >
                       {timezones
                         .filter(t => !outputTimezones.includes(t.value) || t.value === tz)
@@ -309,9 +309,10 @@ const TimezoneConverter = () => {
                     </select>
                     <button
                       onClick={() => removeOutputTimezone(tz)}
-                      className="px-3 py-2 text-red-600 hover:text-red-700 transition-colors"
+                      className="p-2 text-red-500 hover:text-red-700 hover:bg-red-100 rounded-full transition-colors"
+                      aria-label="Remove timezone"
                     >
-                      Remove
+                      <Trash2 className="h-5 w-5" />
                     </button>
                   </div>
                 ))}
