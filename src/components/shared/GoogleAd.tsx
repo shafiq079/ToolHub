@@ -2,14 +2,12 @@ import React, { useEffect } from 'react';
 
 const GoogleAd: React.FC = () => {
   useEffect(() => {
-  setTimeout(() => {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
       console.error('AdSense Error:', e);
     }
-  }, 1000);
-}, []);
+  }, []);
 
 
   return (
