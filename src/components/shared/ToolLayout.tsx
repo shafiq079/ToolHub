@@ -67,7 +67,7 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
         </div>
 
         {/* Tool Content */}
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
           {children}
         </div>
 

@@ -205,7 +205,7 @@ const TimezoneConverter = () => {
       >
         <div className="space-y-6">
           {/* World Clocks */}
-          <div className="bg-gray-50 rounded-lg p-6">
+          <div className="bg-gray-50 rounded-lg md:p-6">
             <div className="flex items-center mb-4">
               <Globe className="h-5 w-5 text-blue-600 mr-2" />
               <h3 className="text-lg font-semibold text-gray-900">World Clock</h3>
@@ -349,7 +349,7 @@ const TimezoneConverter = () => {
           )}
 
           {/* SEO Content Section */}
-          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg md:p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Timezone Converter – Easily Convert Between Time Zones</h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

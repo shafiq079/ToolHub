@@ -289,7 +289,7 @@ const SpeechToText = () => {
           </div>
 
           {/* SEO Content Section */}
-          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg p-8">
+          <div className="prose prose-blue max-w-none mt-12 bg-gray-50 rounded-lg md:p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Speech to Text Converter – Convert Voice into Text Instantly</h2>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
