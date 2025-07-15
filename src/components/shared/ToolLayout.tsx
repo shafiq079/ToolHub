@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Share2 } from 'lucide-react';
-
+import GoogleAd from './GoogleAd';
 interface ToolLayoutProps {
   title: string;
   description: string;
@@ -62,8 +62,8 @@ const ToolLayout: React.FC<ToolLayoutProps> = ({
         </div>
 
         {/* Ad Placeholder - Medium Rectangle */}
-        <div className="ad-banner bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg p-8 mb-6 text-center">
-          <p className="text-gray-500 text-sm">Advertisement Space (300x250)</p>
+        <div className="">
+          <GoogleAd/>
         </div>
 
         {/* Tool Content */}
